@@ -9,7 +9,7 @@ for (let i=1; i<=k; i++) {
     let counter=0;
     for (let j=1; j<=i; j++) {
         if (i%j==0) {
-        divisione= i/j;  
+        //divisione= i/j;  
         counter++;
         //console.log(divisione + " ");
         }
