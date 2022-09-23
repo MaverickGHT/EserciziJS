@@ -45,3 +45,14 @@ if (Bis == true) {
     console.log("L'anno non è bisestile");
 }
 
+let annooggi= 2022;
+let meseoggi= 10;
+let distanzamesi=0;
+
+distanzamesi= ((anno-annooggi)*12)- meseoggi;
+console.log("La distanza in mesi dal gennaio dell'anno selezionato è: " + (distanzamesi+1));
+
+let distanzasettimane=0;
+let settimanaoggi=39;
+distanzasettimane= ((anno-annooggi)*52)- settimanaoggi;
+console.log("La distanza in settimane dal gennaio dell'anno selezionato è: " + (distanzasettimane +1));
