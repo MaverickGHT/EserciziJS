@@ -21,6 +21,14 @@ console.log(ParolaImpiccato);
 
 let ArrayImpiccato = ParolaImpiccato.split ("");
 
-for (let k=0; k < ArrayImpiccato.length; k++) {
+/*for (let k=0; k < ArrayImpiccato.length; k++) {
     console.log(ArrayImpiccato[k]);
+}*/
+
+console.log("Indovina la parola: " + "-".repeat(ArrayImpiccato.length));
+
+let ParolaIndovinata= false;
+
+while (ParolaIndovinata==false) {
+    
 }
