@@ -15,3 +15,12 @@ if (Scelta==Animale) {
 } else {
     console.log("Ritenta sarai più fortunato");
 }
+
+let ParolaImpiccato = Parole[i];
+console.log(ParolaImpiccato);
+
+let ArrayImpiccato = ParolaImpiccato.split ("");
+
+for (let k=0; k < ArrayImpiccato.length; k++) {
+    console.log(ArrayImpiccato[k]);
+}
