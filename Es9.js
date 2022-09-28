@@ -37,23 +37,24 @@ while (ParolaIndovinata==false) {
             console.log(parola[j]);
         }
         lettera[k]= prompt("Prova a indovinare la lettera o la parola: ");
-        for (let m=0; m<ArrayImpiccato.length; m++){
+         for (let m=0; m<ArrayImpiccato.length; m++){
          if (lettera[k]== ArrayImpiccato[m]) {
             //console.log(lettera[k]);
             parola[m]= lettera[k];
         } else {
-            console.log("-");
+            //console.log("-");
             }
+        } 
+        
+    }
+    for (let n=0; n<ArrayImpiccato.length; n++) {
+        if (parola [n] == ArrayImpiccato [n]){
+            ParolaIndovinata=true;
+        } else {
+            ParolaIndovinata=false;
+            break;
         }
-    }
- for (let n=0; n<ArrayImpiccato.length; n++) {
-    if (parola [n] == ArrayImpiccato [n]){
-        ParolaIndovinata=true;
-    } else {
-        ParolaIndovinata=false;
-        break;
-    }
- }
+     }
 }
 
 
